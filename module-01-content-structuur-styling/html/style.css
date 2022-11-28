@@ -9,3 +9,11 @@ h2{
 h3{
     color: darkred;
 }
+
+.link{
+    color: lightblue;
+}
+
+.hover{
+    color: blueviolet;
+}

@@ -11,9 +11,12 @@ h3{
 }
 
 .link{
-    color: lightblue;
+    color: blue;
 }
 
-.hover{
-    color: blueviolet;
+a:hover {
+  color: lightblue;
+}
+a:visited {
+  color: darkblue;
 }

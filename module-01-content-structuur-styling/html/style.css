@@ -10,8 +10,15 @@ h3{
     color: darkred;
 }
 
-.link{
-    color: blue;
+
+body{
+            text-align: center;
+            border: 100px solid gray;
+            padding: 50px;
+        }
+
+a{
+    color: red;
 }
 
 a:hover {

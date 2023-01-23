@@ -96,6 +96,15 @@ h3 {
 }
 
 
+.hyperclass {
+    border: 0px;
+    color: black;
+    text-align: center;
+    alignment: center;
+    align-items: center;
+    align-content: center;
+}
+
 a {
     border: solid;
     color: white;

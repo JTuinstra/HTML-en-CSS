@@ -97,13 +97,21 @@ h3 {
 
 
 .hyperclass {
-    border: 0px;
+    border: 1px;
     color: black;
     text-align: center;
     alignment: center;
     align-items: center;
     align-content: center;
+    padding: 1px 1px;
 }
+
+
+.hyperclass:hover {
+    font-size: 30px;
+    color: red;
+}
+
 
 a {
     border: solid;

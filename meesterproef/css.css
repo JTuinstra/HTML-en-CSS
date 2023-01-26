@@ -87,15 +87,7 @@ h2 {
     margin-bottom: 0;
 }
 
-h3 {
-    font-size: 1.5em;
-    text-align: center;
-    color: white;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.h3uitleg {
+.h2uitleg {
     font-size: 1.5em;
     text-align: left;
     color: black;
@@ -104,6 +96,22 @@ h3 {
     font-weight: bold;
 }
 
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.h2uitleg {
+    font-size: 1.5em;
+    text-align: left;
+    color: black;
+    margin-top: 3px;
+    margin-left: 50px;
+    font-weight: bold;
+}
 
 
 a {
@@ -154,11 +162,21 @@ p {
     font-weight: bold;
 }
 
-.paratitel {
+.paragraaftitel {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 2em;
     font-weight: bold;
+}
+
+.paragraaftitelleft {
+    text-align: left;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 65px;
 }
 
 .center {

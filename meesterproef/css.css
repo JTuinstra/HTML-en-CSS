@@ -95,22 +95,15 @@ h3 {
     margin-bottom: 0;
 }
 
-
-.hyperclass {
-    border: 1px;
-    color: blue;
-    text-align: center;
-    alignment: center;
-    align-items: center;
-    align-content: center;
-    padding: 1px 1px;
+.h3uitleg {
+    font-size: 1.5em;
+    text-align: left;
+    color: black;
+    margin-top: 3px;
+    margin-left: 50px;
+    font-weight: bold;
 }
 
-
-.hyperclass:hover {
-    font-size: 30px;
-    color: red;
-}
 
 
 a {
@@ -131,6 +124,20 @@ a {
 a:hover {
     font-size: 30px;
 }
+
+.hyperlink {
+    border: solid;
+    color: white;
+    font-size: 22px;
+
+}
+
+
+.hyperlink:hover {
+    font-size: 22px;
+    color: wheat;
+}
+
 
 nav {
     text-align: center;
@@ -159,6 +166,41 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+pre {
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
+iframe {
+    display: block;
+    opacity: 60%;
+    margin-left: 50px;
+    margin-right: auto;
+    height: 500px;
+    width:62%;
+}
+
+
+.programmatitel {
+    font-size: 3em;
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+
+
+
+
 
 
 @media screen and (min-width: 0px) {

@@ -133,17 +133,50 @@ a:hover {
     font-size: 30px;
 }
 
-.hyperlink {
-    border: solid;
-    color: white;
-    font-size: 22px;
+@media screen and (min-width: 0px) {
+    .hyperlink {
+        border: solid;
+        color: white;
+        font-size: 14px;
+    }
+}
 
+@media screen and (min-width: 576px) {
+    .hyperlink {
+        border: solid;
+        color: white;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hyperlink {
+        border: solid;
+        color: white;
+        font-size: 22px;
+    }
 }
 
 
-.hyperlink:hover {
-    font-size: 22px;
-    color: wheat;
+@media screen and (min-width: 0px) {
+    .hyperlink:hover {
+        font-size: 16px;
+        color: wheat;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .hyperlink:hover {
+        font-size: 18px;
+        color: wheat;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hyperlink:hover {
+        font-size: 23px;
+        color: wheat;
+    }
 }
 
 
